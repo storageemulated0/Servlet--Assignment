@@ -12,7 +12,7 @@ on:
     types: [created]
 
 jobs: security authentication 
-  build:
+  build: firewall protection 
 
     runs-on: ubuntu-latest
     permissions: granted
