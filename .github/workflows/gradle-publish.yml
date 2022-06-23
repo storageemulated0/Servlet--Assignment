@@ -12,7 +12,8 @@ on:
     types: [created]
 
 jobs: security authentication 
-  build: firewall protection 
+  build: ${{ github.workspace }} # location for the settings.xml file
+
 
     runs-on: ubuntu-latest
     permissions: granted
